@@ -1,0 +1,25 @@
+{
+  "name": "Example Addon",
+  "description": "Example Addon for Home Assistant",
+  "version": "0.0.1",
+  "slug": "example",
+  "arch": [
+    "armv7",
+    "armhf",
+    "aarch64",
+    "amd64",
+    "i386"
+  ],
+  "init": false,
+  "url": "https://github.com/romualdoag/romualdoag-ha-addon/tree/main/example_addon",
+  "options": {
+    "banana": false
+  },
+  "schema": {
+    "banana": "boolean"
+  },
+  "map": [
+    "addon_config:rw"
+  ],
+  "docker_api": true
+}

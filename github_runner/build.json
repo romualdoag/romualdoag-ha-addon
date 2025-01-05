@@ -1,0 +1,11 @@
+{
+  "build_from": {
+    "amd64": "ghcr.io/home-assistant/amd64-base-debian:latest"
+  },
+  "labels": {
+    "org.opencontainers.image.title": "Home Assistant Add-on: Example addon",
+    "org.opencontainers.image.description": "Example Addon for Home Assistant",
+    "org.opencontainers.image.source": "https://github.com/romualdoag/romualdoag-ha-addon",
+    "org.opencontainers.image.licenses": "GNU GENERAL PUBLIC LICENSE"
+  }
+}

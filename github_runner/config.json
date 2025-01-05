@@ -1,0 +1,33 @@
+{
+  "name": "Github Runner",
+  "description": "Github Runner for Home Assistant",
+  "version": "0.0.1",
+  "slug": "githubactions",
+  "arch": [
+    "amd64"
+  ],
+  "init": false,
+  "url": "https://github.com/romualdoag/romualdoag-ha-addon/tree/main/github_runner",
+  "options": {
+    "url": "https://github.com/",
+    "token": null,
+    "labels": null,
+    "runnergroup": null,
+    "replace": false,
+    "disableupdate": true,
+    "ephemeral": false
+  },
+  "schema": {
+    "url": "str",
+    "token": "str",
+    "labels": "str",
+    "runnergroup": "str",
+    "replace": "boolean",
+    "disableupdate": "boolean",
+    "ephemeral": "boolean"
+  },
+  "map": [
+    "addon_config:rw"
+  ],
+  "docker_api": true
+}

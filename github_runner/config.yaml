@@ -1,0 +1,31 @@
+name: "Github Runner"
+description: "Github Runner for Home Assistant"
+version: "1.0.0"
+slug: "github_runner"
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+init: false
+url: https://github.com/romualdoag/github-runner-ha-addon
+options:
+  url: "https://github.com/"
+  token: null
+  labels: null
+  runnergroup: null
+  replace: false
+  disableupdate: true
+  ephemeral: false
+schema:
+  url: str
+  token: str
+  labels: str
+  runnergroup: str
+  replace: boolean
+  disableupdate: boolean
+  ephemeral: boolean
+map:
+  - addon_config:rw
+docker_api: true
